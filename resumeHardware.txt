@@ -1,0 +1,3 @@
+- Memoria Ram
+- Memoria caché
+- Disco SSD

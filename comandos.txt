@@ -1,0 +1,39 @@
+   92  mkdir Checkpoint16-08-23-CristianCrespin
+   93  cd Checkpoint16-08-23-CristianCrespin
+   94  git init
+   95  git status
+   96  git remote add origin https://github.com/dCris96/Checkpoint16-08-23-CristianCrespin.git
+   97  git remote -v
+   98  touch main.js index.html
+   99  git status
+  100  git add .
+  101  git commit -m "commit 01 de Cristian Crespin"
+  102  git push -u origin main
+  103  git checkout -b feature
+  104  git checkout feature
+  105  mkdir Hardware Software SeguridadInformatica
+  106  cd Hardware
+  107  touch resume.txt
+  108  cd ../
+  109  cd Software
+  110  touch resume.txt
+  111  cd ../
+  112  cd SeguridadInformatica
+  113  touch resume.txt
+  114  git status
+  115  git add .
+  116  git commit -m "commit 02 de Cristian Crespin"
+  117  git push -u origin feature
+  118  git checkout main
+  119  cd ../
+  120  git mv main.js resumeHardware.txt
+  121  git mv index.html resumeSoftware.txt
+  122  echo "- Adobe Photoshop" > resumeSoftware.txt
+  123  echo "- Adobe Premiere pro" >> resumeSoftware.txt
+  124  echo "- Adobe After effects" >> resumeSoftware.txt
+  125  cat resumeSoftware.txt
+  126  echo "- Memoria Ram" > resumeHardware.txt
+  127  echo "- Memoria caché" >> resumeHardware.txt
+  128  echo "- Disco SSD" >> resumeHardware.txt
+  129  cat resumeHardware.txt
+  130  touch comandos.txt
